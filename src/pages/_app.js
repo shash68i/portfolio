@@ -1,5 +1,7 @@
 import { useState, createContext } from "react";
 import { ThemeProvider } from "styled-components";
+import Layout from "@components/layout";
+
 import "../styles/globals.css";
 
 const ThemeContext = createContext();
@@ -21,7 +23,9 @@ export default function App({ Component, pageProps }) {
   return (
     <ThemeContext.Provider value={changeTheme}>
       <ThemeProvider theme={theme}>
-        <Component {...pageProps} />
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
       </ThemeProvider>
     </ThemeContext.Provider>
   );
