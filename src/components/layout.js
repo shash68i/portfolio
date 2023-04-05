@@ -1,10 +1,10 @@
-// import Navbar from "./navbar";
+import Navbar from "@components/Navbar";
 // import Footer from "./footer";
 
 export default function Layout({ children }) {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <main>{children}</main>
       {/* <Footer /> */}
     </>

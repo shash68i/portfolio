@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 *,
 *::before,
 *::after {
@@ -16,6 +18,7 @@ body {
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  font-family: "Inter", sans-serif;
 }
 
 img,
@@ -24,7 +27,13 @@ video,
 canvas,
 svg {
   display: block;
-  max-width: 100%;
+  max-inline-size: 100%;
+  /* max-width: 100%; */
+}
+
+ol,
+ul {
+  list-style: none;
 }
 
 input,
@@ -47,4 +56,12 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+  max-width: 860px;
 }
