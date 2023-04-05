@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const StyledWrapper = styled.nav`
   height: 64px;
+  margin-bottom: 24px;
 
   .nav {
     height: 100%;

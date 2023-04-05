@@ -13,7 +13,7 @@ export default function Home() {
 
       <GlobalStyle />
 
-      <main>My Homepage</main>
+      <main className="container">My Homepage</main>
     </>
   );
 }
