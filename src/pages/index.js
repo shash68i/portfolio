@@ -16,7 +16,7 @@ export default function Home() {
       <GlobalStyle />
 
       <StyledWrapper className="container">
-        <section className="section-about container-main">
+        <section className="about-page container-main">
           <h1>Hi, I'm Shashank ✨</h1>
           <p className="theme-text about-item">
             A diligent frontend developer with <Badge>2.5+</Badge> years of
@@ -31,7 +31,7 @@ export default function Home() {
             dev community & read quality open-source code in leisure.
           </p>
           <p className="theme-text about-item">
-            If you wish to wishper something😉, here's my mail -
+            If you wish to wishper something😉, here's my mail -{" "}
             <Badge>theshashank6870@gmail.com</Badge>
           </p>
         </section>
