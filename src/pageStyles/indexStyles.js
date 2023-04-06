@@ -11,11 +11,9 @@ const StyledWrapper = styled.main`
   }
 
   h1 {
-    display: inline-block;
     font-size: 2.75rem;
     font-weight: 900;
     color: ${({ theme }) => theme.colors.primary900};
-    border-radius: 2px;
     margin-top: 4rem;
     margin-bottom: 0.8rem;
 
