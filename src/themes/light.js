@@ -18,6 +18,7 @@ const lightTheme = {
   },
 
   borders: {
+    primary200: "4px",
     primary100: "2px",
   },
 

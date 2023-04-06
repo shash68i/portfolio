@@ -5,7 +5,7 @@ const StyledWrapper = styled.span`
   margin: 0 2px;
   color: ${({ theme }) => theme.colors.badgeText};
   background-color: ${({ theme }) => theme.colors.secondary200};
-  border-radius: ${({ theme }) => theme.borders.primary100};
+  border-radius: ${({ theme }) => theme.borders.primary200};
 `;
 
 export default StyledWrapper;

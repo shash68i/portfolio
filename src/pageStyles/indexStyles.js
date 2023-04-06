@@ -4,6 +4,10 @@ const StyledWrapper = styled.main`
   .about-item {
     line-height: 2.2;
     margin-bottom: 1.5rem;
+
+    @media (max-width: 460px) {
+      line-height: 2;
+    }
   }
 
   h1 {
@@ -17,6 +21,7 @@ const StyledWrapper = styled.main`
 
     @media (max-width: 460px) {
       margin-top: 0;
+      font-size: 2.4rem;
     }
   }
 `;
