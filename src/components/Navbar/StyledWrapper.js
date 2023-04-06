@@ -3,7 +3,6 @@ import styled from "styled-components";
 const StyledWrapper = styled.nav`
   height: 64px;
   margin-bottom: 24px;
-  color: ${({ theme }) => theme.color.primary900};
 
   .nav {
     height: 100%;
@@ -15,6 +14,14 @@ const StyledWrapper = styled.nav`
   .nav-items {
     display: flex;
     gap: 1.8rem;
+    align-items: center;
+
+    a {
+      color: ${({ theme }) => theme.colors.primary600};
+    }
+    a:hover {
+      text-decoration: underline;
+    }
   }
 
   .theme-toggle-button {

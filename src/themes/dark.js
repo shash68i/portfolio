@@ -1,5 +1,5 @@
 const darkTheme = {
-  color: {
+  colors: {
     primary900: "#EEE",
     primary800: "#EAEAEA",
     primary700: "#F0F0F0",
@@ -13,9 +13,18 @@ const darkTheme = {
     secondary300: "#DBEBFF",
     secondary200: "#B2D3FE",
     secondary100: "#B1D3FF",
+
+    badgeText: "#484848",
   },
 
-  nav: {},
+  borders: {
+    primary100: "2px",
+  },
+
+  containerMain: {
+    width: "90%",
+    smallScreenWidth: "100%",
+  },
 };
 
 export default darkTheme;

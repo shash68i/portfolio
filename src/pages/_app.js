@@ -1,5 +1,5 @@
 import ThemeProvider from "../providers/ThemeProvider";
-import Layout from "@components/layout";
+import Layout from "./../components/layout";
 
 import "../styles/globals.css";
 

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import StyledWrapper from "./StyledWrapper";
 import { useTheme } from "../../providers/ThemeProvider/";
@@ -5,8 +6,6 @@ import themeToggleLight from "../../../public/icons/theme-toggle-light.svg";
 import themeToggleDark from "../../../public/icons/theme-toggle-dark.svg";
 import logoLight from "../../../public/icons/logo-light.svg";
 import logoDark from "../../../public/icons/logo-dark.svg";
-
-import Link from "next/link";
 
 const Navbar = () => {
   const { theme, toggleTheme } = useTheme();
