@@ -2,7 +2,7 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
     body {
-        background-color: ${({ theme }) => theme.color?.primary100};
+        background-color: ${({ theme }) => theme.color?.primary200};
     }
 `;
 

@@ -1,19 +1,26 @@
 import Image from "next/image";
 import StyledWrapper from "./StyledWrapper";
 import { useTheme } from "../../providers/ThemeProvider/";
-import themeToggleIcon from "../../../public/icons/theme-toggle-light.svg";
-import logoIcon from "../../../public/icons/logo.svg";
+import themeToggleLight from "../../../public/icons/theme-toggle-light.svg";
+import themeToggleDark from "../../../public/icons/theme-toggle-dark.svg";
+import logoLight from "../../../public/icons/logo-light.svg";
+import logoDark from "../../../public/icons/logo-dark.svg";
+
 import Link from "next/link";
 
 const Navbar = () => {
-  const toggleTheme = useTheme();
+  const { theme, toggleTheme } = useTheme();
 
   return (
     <StyledWrapper>
       <div className="container nav">
         <div className="logo">
           <Link href="/">
-            <Image src={logoIcon} alt="Brand Logo" />
+            {theme === "light" ? (
+              <Image src={logoLight} alt="Brand Logo Light" />
+            ) : (
+              <Image src={logoDark} alt="Brand Logo Dark" />
+            )}
           </Link>
         </div>
         <ul className="nav-items">
@@ -28,7 +35,11 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <button className="theme-toggle-button" onClick={toggleTheme}>
-              <Image src={themeToggleIcon} alt="Theme Toggle Icon" />
+              {theme === "light" ? (
+                <Image src={themeToggleLight} alt="Theme Toggle Icon Light" />
+              ) : (
+                <Image src={themeToggleDark} alt="Theme Toggle Icon Dark" />
+              )}
             </button>
           </li>
         </ul>

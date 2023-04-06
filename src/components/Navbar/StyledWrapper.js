@@ -3,6 +3,7 @@ import styled from "styled-components";
 const StyledWrapper = styled.nav`
   height: 64px;
   margin-bottom: 24px;
+  color: ${({ theme }) => theme.color.primary900};
 
   .nav {
     height: 100%;

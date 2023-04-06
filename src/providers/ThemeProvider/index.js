@@ -21,13 +21,19 @@ export const ThemeProvider = ({ children }) => {
   }, []);
 
   const toggleTheme = () => {
-    console.log("Button Clicked");
     const newTheme = theme === "light" ? "dark" : "light";
+    console.log("Theme Button Clicked, new theme - ", newTheme);
     setTheme(newTheme);
     localStorage.setItem("portfolio.theme", newTheme);
   };
+
+  const providerValue = {
+    toggleTheme,
+    theme,
+  };
+
   return (
-    <ThemeContext.Provider value={toggleTheme}>
+    <ThemeContext.Provider value={providerValue}>
       <SCThemeProvider theme={theme === "light" ? themes.light : themes.dark}>
         {children}
       </SCThemeProvider>
