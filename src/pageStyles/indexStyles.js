@@ -21,6 +21,10 @@ const StyledWrapper = styled.main`
       margin-top: 0;
       font-size: 2.4rem;
     }
+    @media (max-width: 360px) {
+      margin-top: 0;
+      font-size: 2.1rem;
+    }
   }
 `;
 
