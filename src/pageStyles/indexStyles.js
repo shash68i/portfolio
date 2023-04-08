@@ -21,9 +21,9 @@ const StyledWrapper = styled.main`
       margin-top: 0;
       font-size: 2.4rem;
     }
-    @media (max-width: 360px) {
+    @media (max-width: 368px) {
       margin-top: 0;
-      font-size: 2.1rem;
+      font-size: 2rem;
     }
   }
 `;
