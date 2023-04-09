@@ -16,7 +16,7 @@ const Footer = () => {
     <StyledWrapper className="container">
       <div className="container-main logo-container">
         <div className="logo-item">
-          <Link href="/">
+          <Link target="_blank" href="https://github.com/shash68i">
             {theme === "light" ? (
               <Image src={githubLight} alt="Brand Logo Light" />
             ) : (
@@ -25,7 +25,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className="logo-item">
-          <Link href="/">
+          <Link target="_blank" href="https://twitter.com/shash68i">
             {theme === "light" ? (
               <Image src={twitterLight} alt="Brand Logo Light" />
             ) : (
@@ -34,13 +34,13 @@ const Footer = () => {
           </Link>
         </div>
         <div className="logo-item">
-          <Link href="/">
+          {/* <Link href="/">
             {theme === "light" ? (
               <Image src={instaLight} alt="Brand Logo Light" />
             ) : (
               <Image src={instaDark} alt="Brand Logo Dark" />
             )}
-          </Link>
+          </Link> */}
         </div>
       </div>
     </StyledWrapper>

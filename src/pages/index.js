@@ -19,18 +19,19 @@ export default function Home() {
           <h1>Hi, I'm Shashank ✨</h1>
           <p className="theme-text about-item">
             A diligent frontend developer with <Badge>2.5+</Badge> years of
-            professional experience. Also have good hand-on knowledge of full
-            web stack. Have worked in Web3, AI, Healthcare, and Consumer-Facing
-            products. Bootstrapped and took end-to-end ownership of{" "}
-            <Badge>2</Badge> projects and contributed to <Badge>3+</Badge>{" "}
-            large-scale projects.
+            professional experience and equipped with good hands-on knowledge of
+            full web stack. I have worked in domains related to Web3, AI,
+            Healthcare, and Consumer-Facing products. Bootstrapped and took
+            end-to-end ownership of <Badge>2</Badge> startup projects and
+            contributed to <Badge>3+</Badge> large-scale projects.
           </p>
           <p className="theme-text about-item">
-            Loves writing <Badge>tech articles</Badge> to share knowledge in the
-            dev community & read quality open-source code in leisure.
+            Loves writing <Badge>tech articles</Badge> to share knowledge and
+            give back to the amazing dev community. I love hanging around with
+            quality open-source code in leisure.
           </p>
           <p className="theme-text about-item">
-            If you wish to wishper something😉, here's my mail -{" "}
+            If you wish to whisper something😉, here's my mail -{" "}
             <Badge>theshashank6870@gmail.com</Badge>
           </p>
         </section>

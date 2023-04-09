@@ -24,7 +24,7 @@ export const projectList = [
   },
   {
     title: "FiftyFive Texhnologies - Frontend Developer - Remote",
-    dateTime: "Jul 2020 - Aug 2021 (1.7 yrs)",
+    dateTime: "Jul 2020 - Aug 2021 (1.1 yrs)",
     description: `Worked on maintaining and improving the features in different client projects.
     Integrated map-based feature using libraries like google maps, leaflet, and react-leaflet, providing a smooth user experience and increasing their monthly users by 15%.
     Efficiently implemented search, form data handling, and data fetching by debouncing, resulting in 10% less consumption of API services.
