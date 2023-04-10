@@ -26,6 +26,11 @@ const StyledWrapper = styled.main`
       font-size: 2.1rem;
     }
   }
+
+  .email-link:hover {
+    text-decoration: underline;
+    color: inherit;
+  }
 `;
 
 export default StyledWrapper;

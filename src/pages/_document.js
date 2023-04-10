@@ -37,6 +37,11 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="icon" href="/favicon.ico" />
+          <meta name="author" content="Shashank Kashyap" />
+          <meta
+            name="keywords"
+            content="personal portfolio, web development, frontend development, react, reactjs, blogs, articles, tutorials, coding, programming, projects, experiences, resume, shashank kumar, shashank kashyap"
+          />
         </Head>
 
         <body>

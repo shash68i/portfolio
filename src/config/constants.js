@@ -1,0 +1,7 @@
+export const DESCRIPTION = {
+  HOME: "Welcome to Shashank's portfolio blog! Browse through my latest projects, and writing. Get to know me and my creative process through the About Me page, where I share my background, experience, and inspiration. You can also explore my portfolio to see examples of my work and read my blog for insights into my coding philosophy and process. Whether you're a potential client, recruiter or just curious about my work, I invite you to check out my blog and get in touch with any questions or comments.",
+  PROJECTS:
+    "Explore Shashank's portfolio of web development projects, including websites, web applications, and interactive user interfaces. Get a glimpse into my development process, development tools, and coding techniques. See examples of responsive layouts, CSS animations, JavaScript functionality, and more. Whether you're a potential client, recruiter or just curious about my work, you'll find plenty of inspiration and insights into my frontend web development skills.",
+  BLOGS:
+    "Get the latest insights and perspectives on tech and frontend from Shashank's portfolio blog. Read in-depth articles on topics like web development, programming languages, and emerging technologies. Stay up to date with industry news, trends, and best practices. Whether you're a seasoned developer or just starting out, you'll find valuable information and resources to help you succeed in your tech career.",
+};
