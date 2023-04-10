@@ -1,5 +1,6 @@
 export const blogList = [
   {
+    id: 2,
     title: "Lifecycle of React Functional Components",
     dateTime: "March 16, 2023",
     description:
@@ -7,6 +8,7 @@ export const blogList = [
     link: "https://shash68i.hashnode.dev/lifecycle-of-react-functional-components",
   },
   {
+    id: 1,
     title: "Debouncing in Javascript for Everyone",
     dateTime: "March 05, 2023",
     description:

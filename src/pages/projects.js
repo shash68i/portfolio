@@ -3,7 +3,7 @@ import GlobalStyle from "../globalStyles";
 import ContentCard from "../components/ContentCard/ContentCard";
 import StyledWrapper from "./../pageStyles/projectStyles";
 import { projectList } from "./../data/projectList";
-import { DESCRIPTION } from "../config/constants";
+import { DESCRIPTION } from "../data/descriptions";
 
 const Projects = () => {
   return (
@@ -25,9 +25,10 @@ const Projects = () => {
           <h1>My Projects</h1>
           <div className="content-list">
             {/* <ContentCard /> */}
-            {projectList.map(({ title, dateTime, description, link }) => {
+            {projectList.map(({ id, title, dateTime, description, link }) => {
               return (
                 <ContentCard
+                  key={id}
                   title={title}
                   dateTime={dateTime}
                   description={description}

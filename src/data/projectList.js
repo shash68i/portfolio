@@ -1,5 +1,6 @@
 export const projectList = [
   {
+    id: 3,
     title: "Pinnacleo - Frontend Developer (Contract) - Remote",
     dateTime: "Oct 2022 - Mar 2023 (6 months)",
     description: `Managed a team of 3 developers handling multiple client projects and ensured delivery within the deadline.
@@ -12,6 +13,7 @@ export const projectList = [
     link: "",
   },
   {
+    id: 2,
     title: "Bliv.club - Frontend Developer (Remote)",
     dateTime: "Aug 2021 - Sep 2022 (1.1 yrs)",
     description: `Contributed to building the core frontend team of 2 developers and 3 interns to create the NFT perpetual index trading portal of the Web3-based startup.
@@ -23,6 +25,7 @@ export const projectList = [
     link: "",
   },
   {
+    id: 1,
     title: "FiftyFive Texhnologies - Frontend Developer - Remote",
     dateTime: "Jul 2020 - Aug 2021 (1.1 yrs)",
     description: `Worked on maintaining and improving the features in different client projects.

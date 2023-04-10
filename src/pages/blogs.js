@@ -3,7 +3,7 @@ import GlobalStyle from "../globalStyles";
 import ContentCard from "../components/ContentCard/ContentCard";
 import StyledWrapper from "./../pageStyles/blogStyles";
 import { blogList } from "./../data/blogList";
-import { DESCRIPTION } from "../config/constants";
+import { DESCRIPTION } from "../data/descriptions";
 
 const Blogs = () => {
   return (
@@ -25,9 +25,10 @@ const Blogs = () => {
           <h1>My Blogs</h1>
           <div className="content-list">
             {/* <ContentCard /> */}
-            {blogList.map(({ title, dateTime, description, link }) => {
+            {blogList.map(({ id, title, dateTime, description, link }) => {
               return (
                 <ContentCard
+                  key={id}
                   title={title}
                   dateTime={dateTime}
                   description={description}

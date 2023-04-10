@@ -2,7 +2,7 @@ import Head from "next/head";
 import GlobalStyle from "../globalStyles";
 import StyledWrapper from "./../pageStyles/indexStyles";
 import Badge from "./../components/Badge";
-import { DESCRIPTION } from "../config/constants";
+import { DESCRIPTION } from "../data/descriptions";
 
 export default function Home() {
   return (
