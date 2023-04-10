@@ -15,6 +15,8 @@ const lightTheme = {
     secondary100: "#EFF6FF",
 
     badgeText: "#1D1D1D",
+    scrollThumb: "#828282",
+    scrollTrack: "#E0E0E0",
   },
 
   borders: {

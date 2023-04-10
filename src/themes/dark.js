@@ -15,6 +15,8 @@ const darkTheme = {
     secondary100: "#B1D3FF",
 
     badgeText: "#484848",
+    scrollThumb: "#828282",
+    scrollTrack: "#3B3B3B",
   },
 
   borders: {
