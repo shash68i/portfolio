@@ -10,6 +10,7 @@ const darkTheme = {
     primary200: "#252525",
     primary100: "#FFFFFF",
 
+    secondary400: "#5A83B9",
     secondary300: "#DBEBFF",
     secondary200: "#B2D3FE",
     secondary100: "#B1D3FF",

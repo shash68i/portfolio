@@ -10,6 +10,7 @@ const lightTheme = {
     primary200: "#FFFDFC",
     primary100: "#FFFFFF",
 
+    secondary400: "#5A83B9",
     secondary300: "#70A4E7",
     secondary200: "#E4F0FF",
     secondary100: "#EFF6FF",

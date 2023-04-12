@@ -33,15 +33,15 @@ const Footer = () => {
             )}
           </Link>
         </div>
-        <div className="logo-item">
-          {/* <Link href="/">
+        {/* <div className="logo-item">
+          <Link href="/">
             {theme === "light" ? (
               <Image src={instaLight} alt="Brand Logo Light" />
             ) : (
               <Image src={instaDark} alt="Brand Logo Dark" />
             )}
-          </Link> */}
-        </div>
+          </Link>
+        </div> */}
       </div>
     </StyledWrapper>
   );

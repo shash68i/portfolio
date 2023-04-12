@@ -1,9 +1,9 @@
 import Head from "next/head";
 import GlobalStyle from "../globalStyles";
-import ContentCard from "../components/ContentCard/ContentCard";
 import StyledWrapper from "./../pageStyles/projectStyles";
 import { projectList } from "./../data/projectList";
 import { DESCRIPTION } from "../data/descriptions";
+import ProjectCard from "../components/ProjectCard";
 
 const Projects = () => {
   return (
@@ -24,16 +24,14 @@ const Projects = () => {
         <div className="projects-page container-main">
           <h1>My Projects</h1>
           <div className="content-list">
-            {/* <ContentCard /> */}
             {projectList.map(({ id, title, dateTime, description, link }) => {
               return (
-                <ContentCard
+                <ProjectCard
                   key={id}
                   title={title}
                   dateTime={dateTime}
                   description={description}
                   link={link}
-                  readMore={link !== ""}
                 />
               );
             })}
