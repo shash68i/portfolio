@@ -33,6 +33,7 @@ const Projects = () => {
                   dateTime={dateTime}
                   description={description}
                   link={link}
+                  readMore={link !== ""}
                 />
               );
             })}
