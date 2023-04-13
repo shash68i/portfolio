@@ -24,18 +24,21 @@ const Blogs = () => {
         <div className="blogs-page container-main">
           <h1>My Blogs</h1>
           <div className="content-list">
-            {blogList.map(({ id, title, dateTime, description, link }) => {
-              return (
-                <BlogCard
-                  key={id}
-                  title={title}
-                  dateTime={dateTime}
-                  description={description}
-                  link={link}
-                  readMore={link !== ""}
-                />
-              );
-            })}
+            {blogList.map(
+              ({ id, title, dateTime, description, link, type }) => {
+                return (
+                  <BlogCard
+                    key={id}
+                    title={title}
+                    dateTime={dateTime}
+                    description={description}
+                    link={link}
+                    type={type}
+                    readMore={link !== ""}
+                  />
+                );
+              }
+            )}
           </div>
         </div>
       </StyledWrapper>

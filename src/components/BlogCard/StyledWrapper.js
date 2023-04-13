@@ -17,10 +17,19 @@ const StyledWrapper = styled.div`
     }
   }
 
+  .sub-headings {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
   .card-date {
     font-size: 1rem;
     font-style: italic;
-    margin-bottom: 1rem;
+  }
+
+  .blog-type {
+    margin-left: 8px;
   }
 
   .card-description {

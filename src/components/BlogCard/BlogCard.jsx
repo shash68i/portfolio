@@ -1,7 +1,8 @@
 import Link from "next/link";
+import Badge from "./../Badge";
 import StyledWrapper from "./StyledWrapper";
 
-const BlogCard = ({ title, dateTime, description, link }) => {
+const BlogCard = ({ title, dateTime, description, link, type }) => {
   return (
     <StyledWrapper>
       <h2 className="card-title">
@@ -9,7 +10,13 @@ const BlogCard = ({ title, dateTime, description, link }) => {
           {title}
         </Link>
       </h2>
-      <div className="card-date">{dateTime}</div>
+      <div className="sub-headings">
+        <div className="card-date">{dateTime}</div>
+        <div className="blog-type">
+          <Badge>{type}</Badge>
+        </div>
+      </div>
+
       <div className="card-description">
         {description}{" "}
         <Link target="_blank" href={link}>
